@@ -1,0 +1,56 @@
+/*Style of the header*/
+#head2 {
+  background-color: #ccc;
+  text-align: center;
+}
+#head2-img1 {
+  width: 25%;
+  height: 100px;
+  float: left;
+}
+
+#head2-img2 {
+  width: 25%;
+  height: 100px;
+  float: right;
+}
+ #t1 {
+    background: beige;
+  
+}
+/*STyle of the nav*/
+nav {
+  background-color: #ccc;
+  margin: 2px solid black;
+}
+
+.separador {
+  color: black;
+  padding: 50px;
+}
+nav ul h3 {
+  display: inline-block;
+  padding-inline-start: 20px;
+}
+/*Style of main body*/
+
+.block1 {
+    float:left;
+    width: 45%;
+    height: 200px;
+    padding:20px;
+    background-color: #ccc;
+}
+
+.block2 {
+    float:right;
+    width:50%;
+    height:200px;
+    background-color: red;
+}
+
+.container ::after{
+
+    clear:both;
+
+}
